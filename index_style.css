@@ -9,8 +9,6 @@
 
 .navbar-top {
     margin-top: 10px;
-
-
 }
 
 .logo {
@@ -50,4 +48,11 @@
         text-decoration: 2px solid white underline;
     }
 
+}
+
+.hero-section {
+    height: 70vw;
+    background-image: url('./photos/wide_image_hero_section.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
