@@ -77,7 +77,20 @@
 }
 
 .box:hover {
-    transform: scale(1.2);
+    animation-name: image-grow;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image-grow {
+    from {}
+
+    to {
+        transform: scale(1.2);
+    }
+
+
 }
 
 .box:nth-child(1) {
