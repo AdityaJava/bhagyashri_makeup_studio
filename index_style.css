@@ -76,6 +76,10 @@
     width: 100%;
 }
 
+.box:hover {
+    transform: scale(1.2);
+}
+
 .box:nth-child(1) {
     background-image: url("./photos/work-photo-section/photo1.jpeg");
     background-size: cover;
