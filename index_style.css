@@ -25,3 +25,22 @@
 .navbar-bottom a {
     font-weight: 900;
 }
+
+.navbar-bottom a:hover {
+    animation-name: underline;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes underline {
+    from {
+        text-decoration: none;
+    }
+
+    to {
+        text-decoration: 2px solid white underline;
+    }
+
+}
