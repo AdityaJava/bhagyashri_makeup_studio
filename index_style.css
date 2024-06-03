@@ -1,5 +1,5 @@
 .navbar {
-    height: 5vw;
+    height: 6vw;
     background-color: black;
     color: white;
     display: flex;
@@ -55,4 +55,9 @@
     background-image: url('./photos/wide_image_hero_section.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.work-section {
+    height: 30vw;
+    border: 2px solid black;
 }
