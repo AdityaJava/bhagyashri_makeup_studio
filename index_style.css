@@ -28,6 +28,7 @@
 
 .navbar-bottom a:hover {
     animation-name: underline;
+    cursor: pointer;
     animation-timing-function: ease-in-out;
     animation-duration: 1s;
     animation-delay: 0s;
