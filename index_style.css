@@ -1,0 +1,22 @@
+.navbar {
+    height: 5vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.navbar-bottom {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navbar-bottom a {
+    font-weight: 900;
+
+}
