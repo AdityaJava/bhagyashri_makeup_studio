@@ -165,7 +165,7 @@
     align-items: center;
     border: 2px solid black;
     height: 70%;
-    border-radius: 20%;
+    border-radius: 60%;
     padding-top: 10px;
     background-color: rgb(225, 184, 191);
 }
@@ -174,7 +174,7 @@
     border: 2px solid black;
     height: 80%;
     width: 80%;
-    border-radius: 20%;
+    border-radius: 60%;
 }
 
 .my-border {
