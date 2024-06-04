@@ -65,7 +65,7 @@
 }
 
 .works-photos-section {
-    height: 100%;
+    height: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0px;
@@ -148,6 +148,7 @@
 }
 
 .about-self {
+    margin-top: 100px;
     height: 40vw;
     border: 2px solid black;
 }
