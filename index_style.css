@@ -160,10 +160,21 @@
 }
 
 .self-image-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
     height: 70%;
     border-radius: 20%;
     padding-top: 10px;
+    background-color: rgb(225, 184, 191);
+}
+
+.self-image {
+    border: 2px solid black;
+    height: 80%;
+    width: 80%;
+    border-radius: 20%;
 }
 
 .my-border {
