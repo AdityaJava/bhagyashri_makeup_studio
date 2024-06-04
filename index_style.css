@@ -159,6 +159,19 @@
     background-size: cover;
 }
 
+.about-self-words {
+    color: white;
+}
+
+.about-self-words-h1 {
+    font-size: 2rem;
+}
+
+.about-self-words-p {
+    font-size: 1rem;
+
+}
+
 .self-image-bg {
     display: flex;
     justify-content: space-between;
