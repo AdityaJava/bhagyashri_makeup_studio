@@ -159,6 +159,13 @@
     background-size: cover;
 }
 
+.self-image-bg {
+    border: 2px solid black;
+    height: 70%;
+    border-radius: 20%;
+    padding-top: 10px;
+}
+
 .my-border {
     border: 2px solid black;
 }
