@@ -150,21 +150,13 @@
 .about-self {
     margin-top: 100px;
     height: 40vw;
+    width: 100%;
     border: 2px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
-}
-
-.brush-bg {
-    height: 100%;
-    width: 100%;
-    background-image: url('./photos/about-me-section/brush-bg.jpg');
+    background-image: url('./photos/about-me-section/brush-bg-wide.jpg');
     background-size: cover;
-}
-
-.self-image {
-    background-color: black;
 }
 
 .my-border {
