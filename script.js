@@ -1,10 +1,11 @@
 let heroSection = document.querySelector('.hero-section');
 console.log(heroSection);
-let imagePaths = ['D:\bhagyashri_makeup_studio\photos\work-photo-section\photo1.jpeg', 'D:\bhagyashri_makeup_studio\photos\work-photo-section\photo2.jpeg', 'D:\bhagyashri_makeup_studio\photos\work-photo-section\photo3.jpeg'];
+
 let i = 1;
+let numberOfImages = 2
 var timer = setInterval(() => {
     console.log('calling')
-    if (i >= 3) {
+    if (i >= (numberOfImages + 1)) {
         i = 1;
         return;
     }
@@ -12,4 +13,4 @@ var timer = setInterval(() => {
     let photoURL = `photos/hero-section-carousel/photo${i++}.jpeg`;
     console.log(photoURL)
     heroSection.style.backgroundImage = `url(${photoURL})`;
-}, 2000);
+}, 3000);
