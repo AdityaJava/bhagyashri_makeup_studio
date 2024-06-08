@@ -31,7 +31,13 @@
 .grid-item {
     position: relative;
     overflow: hidden;
+    transition: all 1s ease-in-out;
 }
+
+.grid-item:hover {
+    transform: scale(2);
+}
+
 
 .grid-item:nth-child(2n) {
     grid-row: span 2;
