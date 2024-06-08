@@ -225,3 +225,13 @@
     cursor: pointer;
     color: white;
 }
+
+.navbar-bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-me-photo {
+    background-image: url('./photos/about-me-section/DoingMakeup.JPG');
+    background-size: cover;
+}
