@@ -193,6 +193,26 @@
     border: 2px solid black;
 }
 
+.footer {
+    height: 20vw;
+    background-color: black;
+    margin-top: 30px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-text-head {
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+
+
 .next-section {
     height: 30vw;
+}
+
+.my-margin-right {
+    margin-right: 10px;
 }
