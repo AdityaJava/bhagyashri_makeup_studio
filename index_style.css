@@ -218,5 +218,10 @@
 }
 
 .footer-columns p {
-    color: #e5e5e5;
+    color: #d9d7d7;
+}
+
+.footer-columns p:hover {
+    cursor: pointer;
+    color: white;
 }
