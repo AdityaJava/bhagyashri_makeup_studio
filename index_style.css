@@ -248,6 +248,11 @@
     border-radius: 10rem;
 }
 
+.read-more-btn a {
+    text-decoration: none;
+    color: white;
+}
+
 button {
     transition: all 0.01s ease;
 }
