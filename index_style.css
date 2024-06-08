@@ -245,4 +245,13 @@
     background-color: black;
     color: white;
     font-weight: 600;
+    border-radius: 10rem;
+}
+
+button {
+    transition: all 0.01s ease;
+}
+
+button:active {
+    transform: scale(0.95);
 }
