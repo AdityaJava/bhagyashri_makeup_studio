@@ -160,7 +160,6 @@
 .about-me {
     margin-top: 150px;
     height: 50vw;
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -171,7 +170,6 @@
 }
 
 .about-me-text {
-    border: 2px solid black;
     width: 50%;
 }
 
@@ -188,7 +186,6 @@
 }
 
 .about-me-photo {
-    border: 2px solid black;
     width: 50%;
 }
 
