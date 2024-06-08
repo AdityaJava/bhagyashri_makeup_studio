@@ -157,48 +157,39 @@
     color: #e4b51f !important;
 }
 
-.about-self {
-    margin-top: 100px;
-    height: 40vw;
-    width: 100%;
+.about-me {
+    margin-top: 150px;
+    height: 50vw;
     border: 2px solid black;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-    background-image: url('./photos/about-me-section/brush-bg-wide.jpg');
-    background-size: cover;
-}
-
-.about-self-words {
-    color: white;
-}
-
-.about-self-words-h1 {
-    font-size: 2rem;
-}
-
-.about-self-words-p {
-    font-size: 1.2rem;
-    font-family: cursive;
-}
-
-.self-image-bg {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90%;
-    width: 60%;
-    border-radius: 60%;
-    padding-top: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 5px;
 }
 
-.self-image {
+.about-me-text {
     border: 2px solid black;
-    height: 80%;
-    width: 80%;
-    border-radius: 60%;
-    background-image: url('./photos/about-me-section/about-me.jpg');
-    background-size: cover;
+    width: 50%;
+}
+
+.about-me-text-head {
+    font-size: 3rem;
+    font-style: Monospace;
+    font-weight: 700;
+}
+
+.about-me-text-self {
+    font-size: 1.1rem;
+    font-style: Monospace;
+    font-weight: 600;
+}
+
+.about-me-photo {
+    border: 2px solid black;
+    width: 50%;
 }
 
 .my-border {
