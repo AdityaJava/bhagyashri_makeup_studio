@@ -2,7 +2,7 @@ let heroSection = document.querySelector('.hero-section');
 console.log(heroSection);
 
 let i = 1;
-let numberOfImages = 2
+let numberOfImages = 3
 var timer = setInterval(() => {
     console.log('calling')
     if (i >= (numberOfImages + 1)) {
