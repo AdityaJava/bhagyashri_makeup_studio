@@ -52,6 +52,7 @@
 
 .hero-section {
     height: 60vw;
+    width: 100%;
     background-image: url('./photos/wide_image_hero_section.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
