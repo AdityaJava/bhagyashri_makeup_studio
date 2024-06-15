@@ -3,6 +3,13 @@
         display: none;
     }
 
+    .menu-navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
     .mobile-navbar {
         height: 15vw;
         width: 100%;
