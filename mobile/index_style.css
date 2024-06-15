@@ -26,13 +26,28 @@
 
     .mobile-sidebar {
         height: 100vh;
-        width: 100px;
+        width: 150px;
         z-index: 1;
         position: fixed;
         background-color: black;
         top: 60px;
         left: 10px;
         display: none;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mobile-sidebar i {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .mobile-sidebar a {
+        text-decoration: none;
+        color: white;
+        font-weight: 400;
     }
 
 }
