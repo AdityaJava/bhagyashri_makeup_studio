@@ -3,6 +3,15 @@
         display: none;
     }
 
+    .mobile-navbar {
+        height: 15vw;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+    }
+
     .mobile-sidebar {
         height: 80%;
 
