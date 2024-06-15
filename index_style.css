@@ -262,3 +262,11 @@ button {
 button:active {
     transform: scale(0.95);
 }
+
+.mobile-navbar {
+    display: none;
+}
+
+.mobile-sidebar {
+    display: none;
+}
