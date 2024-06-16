@@ -186,10 +186,6 @@
     font-weight: 600;
 }
 
-.about-me-photo {
-    width: 50%;
-}
-
 .my-border {
     border: 2px solid black;
 }
@@ -239,6 +235,7 @@
 }
 
 .about-me-photo {
+    width: 50%;
     background-image: url('./photos/about-me-section/DoingMakeup.JPG');
     background-size: cover;
 }
