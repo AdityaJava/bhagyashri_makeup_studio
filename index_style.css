@@ -160,6 +160,7 @@
 .about-me {
     margin-top: 150px;
     height: 30%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
