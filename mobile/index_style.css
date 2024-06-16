@@ -56,5 +56,8 @@
         background-size: cover;
     }
 
+    .about-us-footer {
+        display: none;
+    }
 
 }
